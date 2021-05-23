@@ -20,7 +20,7 @@ if ( !empty($_GET['post']) ) {
 		$content = '
 			<h2>Not Found</h2>
 			<p>Sorry, couldn\'t find a post with that name. Please try again, or go to the 
-			<a href="<?php echo $base_url; ?>">home page</a> to select a different post.</p>';
+			<a href="'.$base_url.'">home page</a> to select a different post.</p>';
 	}
 } else {
 	// Blog main page - list all posts

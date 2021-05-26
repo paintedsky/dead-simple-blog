@@ -1,0 +1,40 @@
+@import url('fonts/fonts.css');
+body {
+	font: 18px 'lato', sans-serif;
+	line-height: 1.5;
+}
+body>* {
+	max-width: 40em;
+	margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'slabo_13px', 'lato', sans-serif;
+}
+a, a:link, a:visited {
+	color: #08c;
+}
+a:hover {
+	color: #0bf;
+}
+a:active {
+	color: #046;
+}
+h1.blog-title a {
+	text-decoration: none;
+}
+h2.list-title a {
+	color: #000;
+	text-decoration: none;
+}
+hr {
+	border: none;
+	border-top: 1px solid #ccc;
+}
+footer {
+	color: #888;
+	padding: 1em;
+	margin: 2em auto 0;
+	background: #eee;
+	font-style: italic;
+	box-sizing: border-box;
+}

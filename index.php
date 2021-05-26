@@ -38,8 +38,8 @@ if ( !empty($_GET['post']) ) {
 }
 
 if($use_amp == 'true') {
-   require 'amp.php';
+   require 'themes/amp/theme.php';
   } else {
-   require 'not_amp.php';
+   require 'themes/default/theme.php';
 }
 ?>

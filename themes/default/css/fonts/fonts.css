@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'lato';
+    src: url('lato/lato-regular-webfont.woff2') format('woff2'),
+         url('lato/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('lato/lato-italic-webfont.woff2') format('woff2'),
+         url('lato/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('lato/lato-bold-webfont.woff2') format('woff2'),
+         url('lato/lato-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('lato/lato-bolditalic-webfont.woff2') format('woff2'),
+         url('lato/lato-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'slabo_13px';
+    src: url('slabo13px/slabo13px-regular-webfont.woff2') format('woff2'),
+         url('slabo13px/slabo13px-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

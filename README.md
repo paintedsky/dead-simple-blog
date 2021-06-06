@@ -24,3 +24,7 @@ Download the files and upload them to a webserver somewhere. That's it!
 4. If you need to link to image/video/audio/etc. files, you can upload them to the media folder.
 4. Upload text files to the "content" directory.
 5. You're done!!
+
+## Other Versions
+
+User @shoaiyb has a fork going with additional features that I didn't think were "absolutely necessary" but if you want some extra bells and whistles, I recommend checking out [his fork](https://github.com/shoaiyb/dead-simple-blog).

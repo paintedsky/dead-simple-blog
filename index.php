@@ -31,7 +31,7 @@ if ( !empty($_GET['post']) ) {
 			$file = fopen($file_path, 'r');
 			$post_title = trim(fgets($file),'#');
 			fclose($file);
-			$content .= '<h2 class="list-title"><a href="'.$base_url.'?post='.$filename_no_ext.'">'.$filename_no_ext.' - '.$post_title.'</a></h2>';
+			$content = '<h2 class="list-title"><a href="'.$base_url.'?post='.$filename_no_ext.'">'.$filename_no_ext.' - '.$post_title.'</a></h2>';
 		}
 	}
 }

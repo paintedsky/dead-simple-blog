@@ -1,8 +1,12 @@
 # Dead Simple Blog
 
+Version 1.1 (2022-11-15)
+
 - [Installation](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#installation)
 - [Usage](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#usage)
+- [Changelog](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#changelog)
 - [Other Versions](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#other-versions)
+- [Attributions](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#attributions)
 
 I've wanted for a long time to create a simple way of blogging that eschews basically all bells and whistles. Many "flat file" Content Management Systems exist already, as well as "static site generators", but none of these that I looked at were simple enough for my liking.
 
@@ -29,6 +33,27 @@ Download the files and upload them to a webserver somewhere. That's it!
 4. Upload text files to the "content" directory.
 5. You're done!!
 
+## Changelog
+
+### Version 1.1
+
+- Updating Parsedown to 1.7.4
+- Added dark mode! Adjust the $appearance variable to enable
+- Change default file type to .md files instead of .txt. Adjust $file_ext variable if needed
+- Reorganize folder structure (CSS and fonts are now in /src)
+- Small text update to /content/drafts/AboutDrafts.md
+- Defined $content in global scope to avoid PHP errors in some configurations
+- Added default favicon at /img/favicon.png
+- Including fonts.css in <head> instead of using @import for better caching behaviour
+- Added file hash query strings to <link> tags in <head> for better caching behaviour
+- index.php now uses <main> for content on list view and <article> on single post view
+- List view now explicitly sorts posts using sortPosts() function - default is sorting by filename, descending
+
 ## Other Versions
 
 User @shoaiyb has a fork going with additional features that I didn't think were "absolutely necessary" but if you want some extra bells and whistles, I recommend checking out [his fork](https://github.com/shoaiyb/dead-simple-blog).
+
+## Attributions
+
+- [Parsedown](https://github.com/erusev/parsedown) by Emanuil Rusev
+- [Blog Icon](https://thenounproject.com/icon/blog-3557350/) by Gregor Cresnar from [Noun Project](https://thenounproject.com)

@@ -37,18 +37,18 @@ Download the files and upload them to a webserver somewhere. That's it!
 
 ### Version 1.1
 
-- Updating Parsedown to 1.7.4
+- Updated Parsedown to 1.7.4
 - Config has now been moved to `config-default.php`, added support for `config-custom.php`
-- Added dark mode! Adjust the `$appearance` variable to enable
-- Change default file type to .md files instead of .txt. Adjust $file_ext variable if needed
-- Reorganize folder structure (CSS and fonts are now in /src)
+- Added dark mode! Adjust the `APPEARANCE` constant to enable
+- Change default file type to .md files instead of .txt. Adjust `FILE_EXT` constant if needed
+- Reorganize folder structure (CSS and fonts are now in `/src`)
 - Small text update to `/content/drafts/AboutDrafts.md`
 - Defined `$content` in global scope to avoid PHP errors in some configurations
 - Added default favicon at `/img/favicon.png`
 - Including `fonts.css` in `<head>` instead of using @import for better caching behaviour
 - Added file hash query strings to `<link>` tags in `<head>` for better caching behaviour
 - `index.php` now uses `<main>` for content on list view and `<article>` on single post view
-- List view now explicitly sorts posts using sortPosts() function - default is sorting by filename, descending
+- List view now explicitly sorts posts using `sortPosts()` function - default is sorting by filename, descending
 
 ## Other Versions
 

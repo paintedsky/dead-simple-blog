@@ -80,8 +80,10 @@ $icon_hash  = hash('md5', file_get_contents(__DIR__.'/img/favicon.png'));
 	echo '<'.$tag.'>'.$content.'</'.$tag.'>';
 	?>
 	<footer>
-		This blog does not offer comment functionality. If you'd like to discuss any of the topics 
-		written about here, you can <a href="mailto:<?php echo CONTACT_EMAIL; ?>">send an email</a>.
+		<p class="postscript">This blog does not offer comment functionality. If you'd like to discuss any of the topics 
+		written about here, you can <a href="mailto:<?php echo CONTACT_EMAIL; ?>">send me an email</a>.</p>
+		<hr />
+		<p class="powered-by">Powered by text files and <a href="https://github.com/paintedsky/dead-simple-blog" target="_blank">Dead Simple Blog</a>.</p>
 	</footer>
 </body>
 </html>

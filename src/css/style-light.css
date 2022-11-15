@@ -64,11 +64,19 @@ code {
 	border-radius: .33em;
 }
 
+hr {
+	border: none;
+	border-top: 1px solid #ccc;
+}
+
 footer {
 	color: #888;
 	padding: 1em;
 	margin: 2em auto 0;
 	background: #eee;
-	font-style: italic;
 	box-sizing: border-box;
+}
+
+footer .postscript {
+	font-style: italic;
 }

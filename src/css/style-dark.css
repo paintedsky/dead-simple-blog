@@ -64,11 +64,20 @@ code {
 	border-radius: .33em;
 }
 
+hr {
+	border: none;
+	border-top: 1px solid #555;
+}
+
 footer {
 	color: #ddd;
-	padding: 1em;
+	padding: 0 1em;
 	margin: 2em auto 0;
 	background: #444;
-	font-style: italic;
 	box-sizing: border-box;
+	overflow: auto;
+}
+
+footer .postscript {
+	font-style: italic;
 }

@@ -41,7 +41,7 @@ if ( $is_post ) {
 			array_push($files_array, $file->getFileInfo());
 		}
 	}
-	usort($files_array, sortPosts); // See sortPosts() function above
+	usort($files_array, 'sortPosts'); // See sortPosts() function above
 	foreach ($files_array as $file) {
 		$filename_no_ext = $file->getBasename('.'.$file_ext);
 		$file_pointer = $file->openFile();

@@ -26,11 +26,11 @@ Download the files and upload them to a webserver somewhere. That's it!
 
 ## Usage
 
-1. Edit "index.php" with your text editor of choice, and change the variables at the top to your liking.
-2. Create text files with a NUMERIC file name, I use YYYY-MM-DD date-based names (e.g. 2018-10-30.txt).
+1. Duplicate `config-default.php` as `config-custom.php`, and change the config variables to your liking.
+2. Create text files with a NUMERIC file name, I use YYYY-MM-DD date-based names (e.g. 2018-10-30.md).
 3. Format text files with Markdown, or not. Whatever. ;)
 4. If you need to link to image/video/audio/etc. files, you can upload them to the media folder.
-4. Upload text files to the "content" directory.
+4. Upload text files to the `content` directory.
 5. You're done!!
 
 ## Changelog
@@ -38,15 +38,16 @@ Download the files and upload them to a webserver somewhere. That's it!
 ### Version 1.1
 
 - Updating Parsedown to 1.7.4
-- Added dark mode! Adjust the $appearance variable to enable
+- Config has now been moved to `config-default.php`, added support for `config-custom.php`
+- Added dark mode! Adjust the `$appearance` variable to enable
 - Change default file type to .md files instead of .txt. Adjust $file_ext variable if needed
 - Reorganize folder structure (CSS and fonts are now in /src)
-- Small text update to /content/drafts/AboutDrafts.md
-- Defined $content in global scope to avoid PHP errors in some configurations
-- Added default favicon at /img/favicon.png
-- Including fonts.css in <head> instead of using @import for better caching behaviour
-- Added file hash query strings to <link> tags in <head> for better caching behaviour
-- index.php now uses <main> for content on list view and <article> on single post view
+- Small text update to `/content/drafts/AboutDrafts.md`
+- Defined `$content` in global scope to avoid PHP errors in some configurations
+- Added default favicon at `/img/favicon.png`
+- Including `fonts.css` in `<head>` instead of using @import for better caching behaviour
+- Added file hash query strings to `<link>` tags in `<head>` for better caching behaviour
+- `index.php` now uses `<main>` for content on list view and `<article>` on single post view
 - List view now explicitly sorts posts using sortPosts() function - default is sorting by filename, descending
 
 ## Other Versions

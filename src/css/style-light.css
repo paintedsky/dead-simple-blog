@@ -1,4 +1,6 @@
 body {
+	color: #333;
+	background: #fff;
 	font: 18px 'lato', sans-serif;
 	line-height: 1.5;
 }
@@ -21,6 +23,7 @@ a,
 a:link,
 a:visited {
 	color: #08c;
+	transition: color .2s ease;
 }
 
 a:hover {
@@ -42,6 +45,15 @@ h1.blog-title a {
 h2.list-title a {
 	color: #000;
 	text-decoration: none;
+}
+
+h1.blog-title a:hover,
+h2.list-title a:hover {
+	text-decoration: underline;
+}
+
+h2.list-title a:hover {
+	color: #ddd;
 }
 
 code {

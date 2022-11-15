@@ -23,14 +23,15 @@ a,
 a:link,
 a:visited {
 	color: #0bf;
+	transition: color .2s ease;
 }
 
 a:hover {
-	color: #08c;
+	color: #09d;
 }
 
 a:active {
-	color: #046;
+	color: #057;
 }
 
 header {
@@ -44,6 +45,15 @@ h1.blog-title a {
 h2.list-title a {
 	color: #fff;
 	text-decoration: none;
+}
+
+h1.blog-title a:hover,
+h2.list-title a:hover {
+	text-decoration: underline;
+}
+
+h2.list-title a:hover {
+	color: #ddd;
 }
 
 code {

@@ -2,11 +2,11 @@
 
 Version 1.1 (2022-11-15)
 
-- [Installation](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#installation)
-- [Usage](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#usage)
-- [Changelog](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#changelog)
-- [Other Versions](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#other-versions)
-- [Attributions](https://github.com/paintedsky/dead-simple-blog/blob/master/README.md#attributions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Changelog](#changelog)
+- [Other Versions](#other-versions)
+- [Attributions](#attributions)
 
 I've wanted for a long time to create a simple way of blogging that eschews basically all bells and whistles. Many "flat file" Content Management Systems exist already, as well as "static site generators", but none of these that I looked at were simple enough for my liking.
 
